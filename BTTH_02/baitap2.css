@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(places/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(233, 230, 36);
+}
+#page-logo {
+    padding: 10px;
+}
+#page-logo a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav {
+    margin-left: auto;
+    margin-right: 10px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+#hero {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#hero-content {
+    width: 500px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+#hero-content h1 {
+    color: #f5f5f5;
+    text-align: center;
+}
+#hero-content p {
+    color: #f5f5f5;
+    text-align: center;
+    opacity: 0.75;
+}
+#hero-content a {
+    display: block;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    }
+#highlights {
+    background-color: rgb(179, 255, 230);
+}
+#highlights h2 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+#destinations {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+img {
+    width: 400px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.destination p {
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    background-color: #000000;
+    gap: 40px;
+    justify-content: center;
+}
+footer ul li a img {
+    width: 40px;
+    height: 40px;
+    padding: 4px 5px;
+}
+strong {
+    color: rgb(10, 189, 181);
+}
