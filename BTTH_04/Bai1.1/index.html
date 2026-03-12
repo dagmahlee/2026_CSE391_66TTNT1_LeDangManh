@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Quản Lý Điểm Sinh Viên</h2>
+
+        <div class="input-section">
+            <div class="form-group">
+                <label for="hoTen">Họ tên:</label>
+                <input type="text" id="hoTen" placeholder="Nhập họ tên sinh viên">
+            </div>
+            
+            <div class="form-group">
+                <label for="diem">Điểm (0-10):</label>
+                <input type="number" id="diem" min="0" max="10" step="0.1" placeholder="Nhập điểm">
+            </div>
+            
+            <button id="btnThem">Thêm</button>
+        </div>
+
+        <table id="bangDiem">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Họ tên</th>
+                    <th>Điểm</th>
+                    <th>Xếp loại</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ngô Văn Hiếu</td>
+                    <td>8.5</td>
+                    <td>Giỏi</td>
+                    <td><button class="btn-xoa">Xóa</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Lê Đăng Mạnh</td>
+                    <td>7.0</td>
+                    <td>Khá</td>
+                    <td><button class="btn-xoa">Xóa</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nguyễn Việt Thao</td>
+                    <td>5.5</td>
+                    <td>Trung bình</td>
+                    <td><button class="btn-xoa">Xóa</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="thongKe">
+            Tổng số sinh viên: <strong>0</strong> | Điểm trung bình: <strong>0.00</strong>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
